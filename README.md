@@ -6,7 +6,7 @@ Roll the dice! is an easy and fun game for everyone. I came up with an idea whil
 ![amiresponsive](assets/readme/final-amiresponsive%3F.png)
 
 [View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
-add last
+
 ---
 
 ## CONTENTS
@@ -17,11 +17,9 @@ add last
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
-  * [Imagery](#imagery)
   * [Wireframes](#wireframes)
 
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
   * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
@@ -47,25 +45,21 @@ add last
 
 ## User Experience (UX)
 
-Visitors looking for a safe place to share their stories and a good laugh should find this website interesting and charming. We are a charitable organization with a goal of sharing information and helping people to get the answers they are looking for or in case  they need even further help pointing them towards the right direction.  
+Visitors looking for a short fun game will find themselves in the right place. The game is created for everyone, kids and adults. 
 
-The front page provides the visitor with a short introduction and the events contact and info. Besides that they can visit webites gallery full with lgbtq+ related sharing and caring photos. 
+The webpage is pretty straight forward and it has the games instruction right down in the bottom of the page.
 
-In case you wanna have some fun and share your story proceed to our sign up page. 
-
-Everyone can enjoy their visit to our website because we have adjusted it and designed for all different screen sizes.
+In case you wanna grab a coffee and have some fun this game is the perfect site to visit and forget everything else just for 5 minutes and since it is adjusted and designed for all different screen sizes just open your browser and throw the dice!
 
 ### User Stories
 
-If you visit my website for the very first time I want you to feel welcome and curious. With the funny but still confusing logo I want you to get intrigued and scroll further down to read about us and to get the clear understanding of who we are and what we do.
-
-In case the home page drawn you attention there is more to see on the following gallery page and for more information feel free to contact us or use or sign up form.
+For the players visiting my online game for the first time, I want them to feel exciting and curious. The game is simple. In case of any confusion the instructions for the games are added in the bottom of the page. 
 
 ## Design
 
 ### Colour Scheme
 
-I wanted my page to be colorful but in a appropriate way so I fetched as friendly as possible for eyes color palette based off of the hero image, which I thought would be a well suited color scheme for the full website. 
+The color palette is very simple. The background color is blue and pretty plane as the textual part of the game. All parts which can be selected or are showing some kind of message or result are having a :hover pseudo class and a touch of red so it can be eye-catching.
 
 [Coolors.co](https://coolors.co/) was the website I've used to fetch the colour palette presented.
 
@@ -73,15 +67,9 @@ I wanted my page to be colorful but in a appropriate way so I fetched as friendl
 
 ### Typography
 
-It was hard to find a perfectly matching fonts, and now I sound totally like a beginner, which looked good and readable. Finally I picked Great Vibes, Acme and for the rest I thought it looks the best with sans-serif.
-
-I used Great Vibes to decorate the website logo, then I used Acme for the quotation and the main sections title and for the rest I left it on sans-serif since that suited the paragraphs best.
+I have used Bubblegum-font since it look catchy and playful but still easy to read.
 
 ![Typography](assets/readme/Bubblegum-font.png)
-
-### Imagery
-
-Since the organization is all about the lgbtq+ and rainbow I thought that pictures related to that would perfectly fullfill the pages value and message.
 
 ### Wireframes
 
@@ -93,30 +81,22 @@ The Wireframes are created for desktop and mobile view.
 
 ## Features
 
-My website is built of 3 pages, index.html as a home page, gallery.html as the gallery page, and signup.html as the sign up page. 
+My webpage contains only one page, index.html as a main page.
 
 ### Final look of the Home page
 ![Game Page](assets/readme/website-image.png)
 
-### General features on each page
-
-The navigation menu and footer is continiously the same throughout all three pages of my website.
-
 ### Future Implementations
 
-This page has a potential to grow even further more by adding more content to it plus images for to spice it up and space it into bigger website.
-
-In the future this event could from being a place to feel safe and funny implement even bigger shows as talkshows and dragshows. But one step at the time.
+This online game has a potential to grow bigger by adding more players, rounds and more complex calculations to the game.
 
 ### Accessibility
 
-I have  have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
+I have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
 
 - Semantic HTML
-- All the links has their aria-labels
-- The color choices and the backgroud images doesn't disturb the content
-- All images under the gallery site are informativly described 
-
+- The choices for the background colors and font-color is simple and doesn't disturb the content
+ 
 
 ## Technologies Used
 
@@ -126,16 +106,17 @@ HTML, CSS, and JavaScript
 
 ### Frameworks, Libraries & Programs Used
 
-I have followed CI recommendation and used Github plus Gitpod.
+As recommended by CI I have used Github plus Gitpod.
 
-For wireframes I have used the programme Visily. 
+I have used Visily to create the wireframes.
+
 
 ## Deployment & Local Development
 
 ### Deployment
 
 [View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
-add last
+
 ### Local Development
 
 If you wish to clone my project, please see the following steps below:
@@ -147,7 +128,9 @@ If you wish to clone my project, please see the following steps below:
 
 ## Testing
 
-All the links in the navigation bar and in the footer has been tested and works. The logo link always brings us back to the main page, while the About and Contact links are only index.html local links so avoid scrolling up and down on the page. The rest as Gallery and Sign Up links opens a new tab in the browser for easier navigation between pages. And the deployed website has been tested in Chrome, Safari, Internet Explorer (Opera) and Firefox. Media queries looks good and been tested throughout different screen sizes.
+Since there are few buttons with different functions presented in the game I have used "disabled" attribute to prevent the option for "clicking" the buttons if it's not their turn in the game.
+
+And the deployed website has been tested in Chrome, Safari, Internet Explorer (Opera) and Firefox. Media queries looks good and been tested throughout different screen sizes.
 
 I have used Responsinator.com for testing:
 - [Responsinator](http://www.responsinator.com/)
