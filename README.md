@@ -158,30 +158,27 @@ No known bugs detected
 
 ### Solved Bugs
 
-I came accross many issues and bugs while creating this project. Understanding of flexbox didn't really workout. During the 2nd mentor meeting Antonio Rodriguez introduced me and explained the grid view which saved my first project. I needed a lot of playing around, moving code back and forward until it really settled in my head.
-
-He mentioned that it would be good to add a comment that due to changes and extra time I needed to put all the code together I had to create a new repository and that is why all the commits came in within few hours because I had to migrate everything from one repo to a new one.
+I came accross few issues and bugs while creating the script.js but I took the good advise my mentor gave me after the first project and made sure to have enough time to coding and play around with this second project. By spending more time on googeling and asking for a guidance I successfully resolve those.
 
 Some of the bugs I came accross and fixed: 
 
-+ Background images
-  + Description: Diffrent size throughout differet screen sizes
-  + Expected behaviour: Full image with no missing sides all the time covering its own content
-  + Actual behaviour: The image was too small or too big or missing a part of it
-  + Fix: Add code background-size: 100%; or background-size: cover; plus adjusting the media queries
++ Disabling the target buttons
+  + Description: Adding "disabled" attribute in html and corresponding code in js
+  + Expected behaviour: By selecting one target number others buttons should be disabled
+  + Actual behaviour: But adding the attribute in html all the buttons were disabled
+  + Fix: Skip adding attribute in html and achive that behavior from js
 
-  + Quotation
-  + Description: Wrong positioning on the logo image and throughtout different screens changing its place
-  + Expected behaviour: To not disturb nor overflow the logo image
-  + Actual behaviour: Running over the logo image and due to color choice text can't be read
-  + Fix: Adjusting the media queries to different screen sizes
++ Dice images
+  + Description: Loaded page presenting two randomly picked dice images 
+  + Expected behaviour: Every time you hit the rollDice button two random images would be presented on the page
+  + Actual behaviour: Loaded page presenting dice images but once the rollDice button was hit the images would disappeare
+  + Fix: Declaring tow more variables and combining with the code I already had
 
-+ Footer
-  + Description: Footer wrongly positioned on the small screen
-  + Expected behaviour: Footer at all times should be horizontal
-  + Actual behaviour: Footer vertical positioning on small screen
-  + Fix: Adding the correct class attribute col-s-4.
-
++ Functions
+  + Description: Calling function 
+  + Expected behaviour: Function called on the right place would execute the expected code
+  + Actual behaviour: Function called on the wrong place does not execute the expected code or duplicates the expected result
+  + Fix: After some guidance and explanation I did connect the puzzle parts 
 
 
 ## Credits
