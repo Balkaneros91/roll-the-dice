@@ -92,7 +92,11 @@ img {
     border-radius: 5px;
 }
 
-/* message */
+#message {
+    font-size: 40px;
+    color: rgb(219 69 82);
+}
+
 /* shake animation */
 
 /* result area */
@@ -140,5 +144,12 @@ li {
 }
 
 /* media queries */
+@media screen and (max-width: 250px) {
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+}
 
 
