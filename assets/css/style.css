@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Frijole&display=swap');
+
+/* body */
+body {
+    font-family: 'Bubblegum Sans', sans-serif;
+    background-color: #8DA9C4;
+    text-align: center;
+}
+
+/* heading */
+.heading {
+    background-color: #13315C;
+    color: rgb(219 69 82);
+    padding: 20px;
+    border: 2px solid #fff;
+}
+
+
