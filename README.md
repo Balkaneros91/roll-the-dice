@@ -196,7 +196,7 @@ As help I've used the following links mentiond right here below.
 
 ### Content
 
-The code is mostly created by me plus I was inspired by some of the content in the above mentioned section, Code Used plus by the code watched on LSM in CI projects.
+After my first project and lots of trouble understanding the connection and structure, I must admit that dev tools helps a lot and makes things click easier when it comes to HTML and CSS. JavaScript was or I rather say is something I need to practise a lot(and thats what my mentor said as well), but with some inspiration I got from the Love Maths walkthrough project, guidance from my mentor and friend Kemal and of course googeling I have put together a code, a simple one but still a functional one.
 
 ###  Media
 
@@ -206,8 +206,8 @@ The icons are downloaded from
 
 ###  Acknowledgments
 
-And last but not least a big thanks and loads of kudos to those who has in some way helped me so I could complete my second project:  
+I would love to thank for the help and patience I have received throughout my second project, specially to:   
 
 - Antonio Rodriguez, my mentor at Code Institute.
-- Kemal Demirtas, a very good frind of mine who happens to be a programmer himself.
+- Kemal Demirtas, a very good friend.
 - Nedicto Entenza Gutierrez, my husband.
