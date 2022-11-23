@@ -1,12 +1,12 @@
 # Roll the dice!
 
-Roll the dice! is an easy and fun game for everyone. I came up with an idea while I was attending a biginner course within programming online. The program was built of three parts: HTML, CSS and JavaScript. First two I finished successfully but unfortunaltly falied the JS so I thought it was right about the time to put my fear away and concur this part and give my game life and funcionality. The website consists of only one page and it is easy to navigate through. The game is simple and contains all the functions and buttons you need for a relaxing and fun game.
+Roll the dice! is an easy and fun game for everyone. I came up with an idea while I was attending a beginner course in programming online. The program was built of three parts: HTML, CSS, and JavaScript. The first two I finished successfully but unfortunately failed the JS part so I thought now was the right moment to put my fear aside and concur in JavaScript by giving my game life and functionality. The website consists of only one page and is easy to navigate. The game is simple and contains all the functions and buttons you need for a fun game.
 
 ---
-![amiresponsive](assets/readme/final-amiresponsive.png)
+![amiresponsive](assets/readme/final-amiresponsive%3F.png)
 
 [View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
-
+add last
 ---
 
 ## CONTENTS
@@ -77,8 +77,7 @@ It was hard to find a perfectly matching fonts, and now I sound totally like a b
 
 I used Great Vibes to decorate the website logo, then I used Acme for the quotation and the main sections title and for the rest I left it on sans-serif since that suited the paragraphs best.
 
-![Typography](assets/readme/great-vibes-font.png)
-![Typography](assets/readme/acme-font.png)
+![Typography](assets/readme/Bubblegum-font.png)
 
 ### Imagery
 
@@ -88,29 +87,16 @@ Since the organization is all about the lgbtq+ and rainbow I thought that pictur
 
 The Wireframes are created for desktop and mobile view.
 
-![Wireframe Home Page](assets/readme/wireframe-homepage.png)
-![Wireframe Gallery Page](assets/readme/wireframe-gallery.png)
-![Wireframe SignUp Page](assets/readme/wireframe-signup.png)
+![Wireframe for Desktop](assets/readme/desktop-wireframe.png)
+![Wireframe for Mobile](assets/readme/mobile-wireframe.png)
+
 
 ## Features
 
 My website is built of 3 pages, index.html as a home page, gallery.html as the gallery page, and signup.html as the sign up page. 
 
 ### Final look of the Home page
-![Home Page](assets/readme/main-page-top.png)
-![Home Page](assets/readme/main-page-bttm.png)
-
-### Final look of the Gallery page
-![Gallery Top](assets/readme/gallery-1.png)
-![Gallery Middle-2](assets/readme/gallery-2.png)
-![Gallery Middle-3](assets/readme/gallery-3.png)
-![Gallery Middle-4](assets/readme/gallery-4.png)
-![Gallery Bottom](assets/readme/gallery-5.png)
-
-### Final look of the Contact page
-![Sign Up Page](assets/readme/sign-up-form.png)
-## Footer
-![Footer](assets/readme/footer.png)
+![Game Page](assets/readme/website-image.png)
 
 ### General features on each page
 
@@ -136,20 +122,20 @@ I have  have tried my best to be mindful of accessibility, and the steps I've ta
 
 ### Languages Used
 
-HTML & CSS.
+HTML, CSS, and JavaScript
 
 ### Frameworks, Libraries & Programs Used
 
 I have followed CI recommendation and used Github plus Gitpod.
 
-For wireframes I have used the programme Balsamic. 
+For wireframes I have used the programme Visily. 
 
 ## Deployment & Local Development
 
 ### Deployment
 
 [View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
-
+add last
 ### Local Development
 
 If you wish to clone my project, please see the following steps below:
@@ -175,10 +161,13 @@ For desktop:
 ![Lighthouse](assets/readme/lighthouse-desktop.png)
 
 ### W3C HTML Validator
-![W3C HTML Validator](assets/readme/w3c-markup-validation.png)
+![W3C HTML Validator](assets/readme/w3c-html.png)
 
 ### W3C CSS Validator
-![W3C CSS Validator](assets/readme/w3c-css-validation.png)
+![W3C CSS Validator](assets/readme/w3c-css.png)
+
+### JS Hint
+![JSHint, A Static Code Analysis Tool for JavaScript](assets/readme/jshint-validation.png)
 
 ### Known bugs
 
@@ -214,30 +203,28 @@ Some of the bugs I came accross and fixed:
 
 ## Credits
 
-Code Institue projects: Coders Coffehouse and Love Running has been the inspiration for my websites design.
-The help I've used with syntax and formatting, please see links and description below.
+Code Institue projects: I was inspired by the Love Maths walkthrough projects functions which help me a lot with the JS part for my website.
+As help I've used the following links mentiond right here below.
 
 ### Code Used
 
 - [w3schools](https://www.w3schools.com/)
-
-- [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
-- [Grid-View](https://www.w3schools.com/css/css_rwd_grid.asp)
+- [stackoverflow](https://stackoverflow.com/)
 
 ### Content
 
-The code is mostly created by me and I was inspired by some of the contect in the above mentioned section, Code Used plus by the code watched on LSM in CI projects.
+The code is mostly created by me plus I was inspired by some of the content in the above mentioned section, Code Used plus by the code watched on LSM in CI projects.
 
 ###  Media
 
-All images are downloaded from
-[Unsplash](https://unsplash.com/)
+The icons are downloaded from
+[FontAwesome](https://fontawesome.com/)
+[favicon.io](https://favicon.io/)
 
-  
 ###  Acknowledgments
 
-And last but not least a big thanks and loads of kudos to those who has in some way helped me so I could complete my first project:  
+And last but not least a big thanks and loads of kudos to those who has in some way helped me so I could complete my second project:  
 
-- Nedicto Entenza Gutierrez, my husband.
 - Antonio Rodriguez, my mentor at Code Institute.
-- 
+- Kemal Demirtas, a very good frind of mine who happens to be a programmer himself.
+- Nedicto Entenza Gutierrez, my husband.
