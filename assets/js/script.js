@@ -2,7 +2,7 @@
  * Loading the DOM first before any other game action
  * looping through buttons and add event listener
  */
- document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener('DOMContentLoaded', function () {
     let buttons = document.getElementsByTagName('button');
 
     for (let button of buttons) {
@@ -41,14 +41,14 @@ function rollDice() {
     document.querySelector("#die2").setAttribute("src", secondDiceImage);
 
     setTimeout(function () {
-        dice.forEach(function (die) {
-            die.classList.remove("shake");
-        });
-    },
+            dice.forEach(function (die) {
+                die.classList.remove("shake");
+            });
+        },
         500
     );
-
     document.querySelector("#round-result").innerHTML = ((dieOneValue) + (dieTwoValue));
+    checkOutcome();
 }
 
 /**
@@ -71,6 +71,18 @@ function checkOutcome() {
     }
 }
 
-/*
-function decrementChances()
-*/
+/**
+ * Checks and decrements chances given for each round of the game
+ */
+function decrementChances() {
+
+    let chances = parseInt(document.getElementById('chances').textContent);
+    document.getElementById('chances').innerText = --chances;
+
+    if (chances === 0) {
+        document.getElementById("roll").disabled = true;
+        document.getElementById('message').textContent = ('You lost! Game Over!');
+    } else {
+        /*alert('roll again!')*/
+    }
+}
