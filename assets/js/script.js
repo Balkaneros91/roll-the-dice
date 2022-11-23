@@ -19,3 +19,9 @@
         });
     }
 });
+
+function rollDice()
+
+function checkOutcome()
+
+function decrementChances()
