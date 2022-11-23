@@ -51,8 +51,26 @@ function rollDice() {
     document.querySelector("#round-result").innerHTML = ((dieOneValue) + (dieTwoValue));
 }
 
-/*
-function checkOutcome()
+/**
+ * Check if targeted number matches or not the calculated result
+ */
+function checkOutcome() {
+    let result = parseInt(document.getElementById('round-result').textContent);
+    let targNr = parseInt(document.getElementById('targ-Nr').textContent);
 
+    let isMatch = result === targNr;
+
+    if (isMatch) {
+        document.getElementById('message').textContent = ("A match! You won!");
+        document.getElementById("roll").disabled = true;
+        decrementChances();
+    } else if (!isMatch) {
+        decrementChances();
+    } else {
+        alert("Hi there!");
+    }
+}
+
+/*
 function decrementChances()
 */
