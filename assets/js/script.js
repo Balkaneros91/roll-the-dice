@@ -20,8 +20,27 @@
     }
 });
 
-function rollDice()
+/**
+ * The main function called when DOM loaded
+ * looping through images/numbers 1-6 for random number
+ * 
+ */
+function rollDice() {
+    let dice = document.querySelectorAll('img');
 
+    let dieOneValue = Math.floor(Math.random() * 6) + 1;
+    let firstDiceImage = "assets/images/dice" + dieOneValue + ".png";
+    let dieTwoValue = Math.floor(Math.random() * 6) + 1;
+    let secondDiceImage = "assets/images/dice" + dieTwoValue + ".png";
+
+    document.querySelector("#die1").setAttribute("src", firstDiceImage);
+    document.querySelector("#die2").setAttribute("src", secondDiceImage);
+
+    document.querySelector("#round-result").innerHTML = ((dieOneValue) + (dieTwoValue));
+}
+
+/*
 function checkOutcome()
 
 function decrementChances()
+*/
