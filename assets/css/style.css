@@ -47,6 +47,32 @@ i {
     padding: 20px;
 }
 
+/* buttons */
+.btn {
+    padding: 10px;
+    margin: 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+    border-radius: 5px;
+    color: #fff;
+    background: #13315C;
+    border: 2px solid #fff;
+}
+
+.controller > .btn {
+    font-size: 25px;
+    padding: 15px;
+    color: #fff;
+}
+
+.controller > .btn:hover {
+    font-size: 28px;
+    padding: 16px;
+    color: #fff;
+    background-color: rgb(219 69 82);
+    border: 2px solid #fff;
+}
+
 
 
 
