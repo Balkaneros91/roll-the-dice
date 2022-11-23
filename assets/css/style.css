@@ -40,7 +40,7 @@ i {
     border-right: 2px solid #fff;
 }
 
-.playground > h2 {
+.playground>h2 {
     color: #13315C;
     font-size: 23px;
     margin: 0px;
@@ -68,26 +68,29 @@ i {
 .shake {
     animation: shake 0.5s infinite;
 }
+
 @keyframes shake {
     0% {
         transform: rotate(8deg);
     }
+
     50% {
         transform: rotate(-8deg);
     }
+
     100% {
         transform: rotate(8deg);
     }
 }
 
-.controller > .btn {
+.controller>.btn {
     font-family: 'Bubblegum Sans', sans-serif;
     font-size: 25px;
     padding: 15px;
     color: #fff;
 }
 
-.controller > .btn:hover {
+.controller>.btn:hover {
     font-size: 28px;
     padding: 16px;
     color: #fff;
@@ -132,8 +135,8 @@ p {
 }
 
 span {
-   color: rgb(219 69 82);
-   margin-left: 10px;
+    color: rgb(219 69 82);
+    margin-left: 10px;
 }
 
 /* footer and rules */
@@ -145,16 +148,16 @@ span {
     border: 2px solid #fff;
 }
 
-.footer > h2 {
+.footer>h2 {
     color: #fff;
     padding: 10px;
 }
 
-.footer h2 > i {
+.footer h2>i {
     font-size: 25px;
 }
 
-.footer > ol {
+.footer>ol {
     text-align: center;
     list-style-position: inside;
     padding: 10px;
@@ -167,15 +170,31 @@ li {
 
 /* media queries */
 
-@media (width <= 360px) {
+@media (width <= 280px) {
 
     h1 {
         font-size: 50px;
     }
 
     img {
-        width: 150px;
-        height: 150px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #message {
+        font-size: 30px;
+    }
+}
+
+@media (280px < width <= 360px) {
+
+    h1 {
+        font-size: 50px;
+    }
+
+    img {
+        width: 120px;
+        height: 120px;
     }
 }
 
@@ -189,30 +208,60 @@ li {
         width: 160px;
         height: 160px;
     }
+
+    #message {
+        font-size: 35px;
+    }
 }
 
-@media (768 < width <= 920px) {
+@media (768px < width <= 920px) {
 
     h1 {
         font-size: 70px;
     }
 
     img {
-        width: 220px;
-        height: 220px;
+        width: 200px;
+        height: 200px;
+    }
+
+    #message {
+        font-size: 35px;
     }
 }
 
-@media (920 < width <= 1200px) {
+@media (920px < width <= 1200px) {
 
     h1 {
         font-size: 90px;
     }
 
     img {
-        width: 300px;
-        height: 300px;
+        width: 280px;
+        height: 280px;
     }
 }
 
+@media (1200px < width <= 1500px) {
 
+    h1 {
+        font-size: 100px;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media (width >= 1500px) {
+
+    h1 {
+        font-size: 100px;
+    }
+
+    img {
+        width: 350px;
+        height: 350px;
+    }
+}
