@@ -1,8 +1,6 @@
-# Roll the dice
+# Roll the dice!
 
-What's the Tea? is an idea I came up with just exclusivly for this project. The organization is located in Stockholm. The main goal is to spread positivity, care and love and everyone is welcome no matter the gender. The website presents a Home page with an 'About' and 'Contact & Info' section. The Gallery page is built from a bunch of inspirational lgbtq+ photos. And last but not least the Sign Up page contains the events sign up form.
-
-I was inspired by the RuPaul's Drag Race show created by RuPaul Charles who is the ICON of the LGBTQ+ comunity all over the world. The show has grown a lot and as a member of the LGBTQ+ comunity I wanted to celebrate my pride by creating my first project based on this idea. 
+Roll the dice! is an easy and fun game for everyone. I came up with an idea while I was attending a biginner course within programming online. The program was built of three parts: HTML, CSS and JavaScript. First two I finished successfully but unfortunaltly falied the JS so I thought it was right about the time to put my fear away and concur this part and give my game life and funcionality. The website consists of only one page and it is easy to navigate through. The game is simple and contains all the functions and buttons you need for a relaxing and fun game.
 
 ---
 ![amiresponsive](assets/readme/final-amiresponsive.png)
