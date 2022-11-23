@@ -14,6 +14,13 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 let targNr = this.getAttribute('data-choice');
                 document.getElementById("targ-Nr").innerHTML = targNr;
+
+                let targetBtns = document.getElementsByClassName('btn-targ');
+                for (let targetBtn of targetBtns) {
+                    targetBtn.disabled = true;
+                }
+                event.target.disabled = false;
+
                 document.getElementById("roll").disabled = false;
             }
         });
