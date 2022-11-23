@@ -22,11 +22,15 @@
 
 /**
  * The main function called when DOM loaded
- * looping through images/numbers 1-6 for random number
- * 
+ * looping through images/numbers 1-6 
+ * for 2 random number and calculates result
  */
 function rollDice() {
     let dice = document.querySelectorAll('img');
+
+    dice.forEach(function (die) {
+        die.classList.add("shake");
+    });
 
     let dieOneValue = Math.floor(Math.random() * 6) + 1;
     let firstDiceImage = "assets/images/dice" + dieOneValue + ".png";
@@ -35,6 +39,14 @@ function rollDice() {
 
     document.querySelector("#die1").setAttribute("src", firstDiceImage);
     document.querySelector("#die2").setAttribute("src", secondDiceImage);
+
+    setTimeout(function () {
+        dice.forEach(function (die) {
+            die.classList.remove("shake");
+        });
+    },
+        500
+    );
 
     document.querySelector("#round-result").innerHTML = ((dieOneValue) + (dieTwoValue));
 }
