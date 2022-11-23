@@ -29,6 +29,24 @@ i {
     font-size: 90px;
 }
 
+/* playground */
+
+.playground {
+    border-bottom: 2px solid #13315C;
+    border-top: 2px solid #13315C;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+
+.playground > h2 {
+    color: #13315C;
+    font-size: 23px;
+    margin: 0px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    padding: 20px;
+}
+
 
 
 
