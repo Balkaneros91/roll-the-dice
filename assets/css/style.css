@@ -171,7 +171,6 @@ li {
 /* media queries */
 
 @media (width <= 280px) {
-
     h1 {
         font-size: 50px;
     }
@@ -191,7 +190,6 @@ li {
 }
 
 @media (280px < width <= 360px) {
-
     h1 {
         font-size: 50px;
     }
@@ -207,7 +205,6 @@ li {
 }
 
 @media (360px < width <= 768px) {
-
     h1 {
         font-size: 60px;
     }
@@ -227,7 +224,6 @@ li {
 }
 
 @media (768px < width <= 920px) {
-
     h1 {
         font-size: 70px;
     }
@@ -247,7 +243,6 @@ li {
 }
 
 @media (920px < width <= 1200px) {
-
     h1 {
         font-size: 90px;
     }
@@ -263,7 +258,6 @@ li {
 }
 
 @media (1200px < width <= 1500px) {
-
     h1 {
         font-size: 100px;
     }
@@ -275,7 +269,6 @@ li {
 }
 
 @media (width >= 1500px) {
-
     h1 {
         font-size: 100px;
     }
