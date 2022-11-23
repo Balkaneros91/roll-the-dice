@@ -1,108 +1,245 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Roll the dice
 
-Welcome Antonio-Claudio Andelic,
+What's the Tea? is an idea I came up with just exclusivly for this project. The organization is located in Stockholm. The main goal is to spread positivity, care and love and everyone is welcome no matter the gender. The website presents a Home page with an 'About' and 'Contact & Info' section. The Gallery page is built from a bunch of inspirational lgbtq+ photos. And last but not least the Sign Up page contains the events sign up form.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+I was inspired by the RuPaul's Drag Race show created by RuPaul Charles who is the ICON of the LGBTQ+ comunity all over the world. The show has grown a lot and as a member of the LGBTQ+ comunity I wanted to celebrate my pride by creating my first project based on this idea. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+---
+![amiresponsive](assets/readme/final-amiresponsive.png)
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
 
 ---
 
-Happy coding!
+## CONTENTS
+
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
+
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+
+* [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+---
+
+## User Experience (UX)
+
+Visitors looking for a safe place to share their stories and a good laugh should find this website interesting and charming. We are a charitable organization with a goal of sharing information and helping people to get the answers they are looking for or in case  they need even further help pointing them towards the right direction.  
+
+The front page provides the visitor with a short introduction and the events contact and info. Besides that they can visit webites gallery full with lgbtq+ related sharing and caring photos. 
+
+In case you wanna have some fun and share your story proceed to our sign up page. 
+
+Everyone can enjoy their visit to our website because we have adjusted it and designed for all different screen sizes.
+
+### User Stories
+
+If you visit my website for the very first time I want you to feel welcome and curious. With the funny but still confusing logo I want you to get intrigued and scroll further down to read about us and to get the clear understanding of who we are and what we do.
+
+In case the home page drawn you attention there is more to see on the following gallery page and for more information feel free to contact us or use or sign up form.
+
+## Design
+
+### Colour Scheme
+
+I wanted my page to be colorful but in a appropriate way so I fetched as friendly as possible for eyes color palette based off of the hero image, which I thought would be a well suited color scheme for the full website. 
+
+[Coolors.co](https://coolors.co/) was the website I've used to fetch the colour palette presented.
+
+![Colour Palette](assets/readme/coolors-palette.png)
+
+### Typography
+
+It was hard to find a perfectly matching fonts, and now I sound totally like a beginner, which looked good and readable. Finally I picked Great Vibes, Acme and for the rest I thought it looks the best with sans-serif.
+
+I used Great Vibes to decorate the website logo, then I used Acme for the quotation and the main sections title and for the rest I left it on sans-serif since that suited the paragraphs best.
+
+![Typography](assets/readme/great-vibes-font.png)
+![Typography](assets/readme/acme-font.png)
+
+### Imagery
+
+Since the organization is all about the lgbtq+ and rainbow I thought that pictures related to that would perfectly fullfill the pages value and message.
+
+### Wireframes
+
+The Wireframes are created for desktop and mobile view.
+
+![Wireframe Home Page](assets/readme/wireframe-homepage.png)
+![Wireframe Gallery Page](assets/readme/wireframe-gallery.png)
+![Wireframe SignUp Page](assets/readme/wireframe-signup.png)
+
+## Features
+
+My website is built of 3 pages, index.html as a home page, gallery.html as the gallery page, and signup.html as the sign up page. 
+
+### Final look of the Home page
+![Home Page](assets/readme/main-page-top.png)
+![Home Page](assets/readme/main-page-bttm.png)
+
+### Final look of the Gallery page
+![Gallery Top](assets/readme/gallery-1.png)
+![Gallery Middle-2](assets/readme/gallery-2.png)
+![Gallery Middle-3](assets/readme/gallery-3.png)
+![Gallery Middle-4](assets/readme/gallery-4.png)
+![Gallery Bottom](assets/readme/gallery-5.png)
+
+### Final look of the Contact page
+![Sign Up Page](assets/readme/sign-up-form.png)
+## Footer
+![Footer](assets/readme/footer.png)
+
+### General features on each page
+
+The navigation menu and footer is continiously the same throughout all three pages of my website.
+
+### Future Implementations
+
+This page has a potential to grow even further more by adding more content to it plus images for to spice it up and space it into bigger website.
+
+In the future this event could from being a place to feel safe and funny implement even bigger shows as talkshows and dragshows. But one step at the time.
+
+### Accessibility
+
+I have  have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
+
+- Semantic HTML
+- All the links has their aria-labels
+- The color choices and the backgroud images doesn't disturb the content
+- All images under the gallery site are informativly described 
+
+
+## Technologies Used
+
+### Languages Used
+
+HTML & CSS.
+
+### Frameworks, Libraries & Programs Used
+
+I have followed CI recommendation and used Github plus Gitpod.
+
+For wireframes I have used the programme Balsamic. 
+
+## Deployment & Local Development
+
+### Deployment
+
+[View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
+
+### Local Development
+
+If you wish to clone my project, please see the following steps below:
+
+1. Navigate to Github: https://balkaneros91.github.io/whatsss-the-tea/
+2. Select the 'Clone' button 
+3. Copy the url or download as ZIP file
+4. Use git clone + the url in your terminal, or unpack the ZIP containing the project
+
+## Testing
+
+All the links in the navigation bar and in the footer has been tested and works. The logo link always brings us back to the main page, while the About and Contact links are only index.html local links so avoid scrolling up and down on the page. The rest as Gallery and Sign Up links opens a new tab in the browser for easier navigation between pages. And the deployed website has been tested in Chrome, Safari, Internet Explorer (Opera) and Firefox. Media queries looks good and been tested throughout different screen sizes.
+
+I have used Responsinator.com for testing:
+- [Responsinator](http://www.responsinator.com/)
+
+
+### Lighthouse
+
+For mobile: 
+![Lighthouse](assets/readme/lighthouse-mobile.png)
+For desktop: 
+![Lighthouse](assets/readme/lighthouse-desktop.png)
+
+### W3C HTML Validator
+![W3C HTML Validator](assets/readme/w3c-markup-validation.png)
+
+### W3C CSS Validator
+![W3C CSS Validator](assets/readme/w3c-css-validation.png)
+
+### Known bugs
+
+No known bugs detected
+
+### Solved Bugs
+
+I came accross many issues and bugs while creating this project. Understanding of flexbox didn't really workout. During the 2nd mentor meeting Antonio Rodriguez introduced me and explained the grid view which saved my first project. I needed a lot of playing around, moving code back and forward until it really settled in my head.
+
+He mentioned that it would be good to add a comment that due to changes and extra time I needed to put all the code together I had to create a new repository and that is why all the commits came in within few hours because I had to migrate everything from one repo to a new one.
+
+Some of the bugs I came accross and fixed: 
+
++ Background images
+  + Description: Diffrent size throughout differet screen sizes
+  + Expected behaviour: Full image with no missing sides all the time covering its own content
+  + Actual behaviour: The image was too small or too big or missing a part of it
+  + Fix: Add code background-size: 100%; or background-size: cover; plus adjusting the media queries
+
+  + Quotation
+  + Description: Wrong positioning on the logo image and throughtout different screens changing its place
+  + Expected behaviour: To not disturb nor overflow the logo image
+  + Actual behaviour: Running over the logo image and due to color choice text can't be read
+  + Fix: Adjusting the media queries to different screen sizes
+
++ Footer
+  + Description: Footer wrongly positioned on the small screen
+  + Expected behaviour: Footer at all times should be horizontal
+  + Actual behaviour: Footer vertical positioning on small screen
+  + Fix: Adding the correct class attribute col-s-4.
+
+
+
+## Credits
+
+Code Institue projects: Coders Coffehouse and Love Running has been the inspiration for my websites design.
+The help I've used with syntax and formatting, please see links and description below.
+
+### Code Used
+
+- [w3schools](https://www.w3schools.com/)
+
+- [CSS Media Queries](https://www.w3schools.com/css/css3_mediaqueries.asp)
+- [Grid-View](https://www.w3schools.com/css/css_rwd_grid.asp)
+
+### Content
+
+The code is mostly created by me and I was inspired by some of the contect in the above mentioned section, Code Used plus by the code watched on LSM in CI projects.
+
+###  Media
+
+All images are downloaded from
+[Unsplash](https://unsplash.com/)
+
+  
+###  Acknowledgments
+
+And last but not least a big thanks and loads of kudos to those who has in some way helped me so I could complete my first project:  
+
+- Nedicto Entenza Gutierrez, my husband.
+- Antonio Rodriguez, my mentor at Code Institute.
+- 
