@@ -15,4 +15,44 @@ body {
     border: 2px solid #fff;
 }
 
+h1 {
+    font-size: 70px;
+    margin: 0px;
+    letter-spacing: 4px;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #fff;
+}
+
+i {
+    padding-right: 10px;
+    color: #fff;
+    font-size: 90px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer and rules */
+.footer {
+    background-color: #13315C;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid #fff;
+}
+
+.footer > h2 {
+    color: #fff;
+    padding: 10px;
+}
+
 
