@@ -5,7 +5,7 @@ Roll the dice! is an easy and fun game for everyone. I came up with an idea whil
 ---
 ![amiresponsive](assets/readme/final-amiresponsive%3F.png)
 
-[View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
+[View live site on Github Pages](https://balkaneros91.github.io/roll-the-dice/)
 
 ---
 
@@ -92,10 +92,11 @@ This online game has a potential to grow bigger by adding more players, rounds a
 
 ### Accessibility
 
-I have tried my best to be mindful of accessibility, and the steps I've taken for this are the following:
+The steps I have taken towards achieving accessibility, are the following:
 
 - Semantic HTML
-- The choices for the background colors and font-color is simple and doesn't disturb the content
+- The choices of the background colors and font-colors is simple and doesn't disturb the content
+- Adding the attribute "disabled" to block the usage of the button if it not their turn in the game
  
 
 ## Technologies Used
@@ -115,13 +116,13 @@ I have used Visily to create the wireframes.
 
 ### Deployment
 
-[View live site on Github Pages](https://balkaneros91.github.io/whatsss-the-tea/)
+[View live site on Github Pages](https://balkaneros91.github.io/roll-the-dice/)
 
 ### Local Development
 
 If you wish to clone my project, please see the following steps below:
 
-1. Navigate to Github: https://balkaneros91.github.io/whatsss-the-tea/
+1. Navigate to Github: https://balkaneros91.github.io/roll-the-dice/
 2. Select the 'Clone' button 
 3. Copy the url or download as ZIP file
 4. Use git clone + the url in your terminal, or unpack the ZIP containing the project
