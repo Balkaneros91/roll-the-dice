@@ -45,21 +45,21 @@ Roll the dice! is an easy and fun game for everyone. I came up with an idea whil
 
 ## User Experience (UX)
 
-Visitors looking for a short fun game will find themselves in the right place. The game is created for everyone, kids and adults. 
+Visitors looking for a short fun game will find themselves in the right place. The game is created for everyone, kids and adults.
 
-The webpage is pretty straight forward and it has the games instruction right down in the bottom of the page.
+The webpage is pretty straightforward and it has the game's instructions right down at the bottom of the page.
 
-In case you wanna grab a coffee and have some fun this game is the perfect site to visit and forget everything else just for 5 minutes and since it is adjusted and designed for all different screen sizes just open your browser and throw the dice!
+In case you wanna grab a coffee and have some fun this game is the perfect site to visit and forget everything else just for 5 minutes. Since it is adjusted and designed for all different screen sizes open your browser and throw the dice!
 
 ### User Stories
 
-For the players visiting my online game for the first time, I want them to feel exciting and curious. The game is simple. In case of any confusion the instructions for the games are added in the bottom of the page. 
+For the players visiting my online game for the first time, I want them to feel excited and curious. The game is simple. In case of any confusion, the instructions for the games are added at the bottom of the page. 
 
 ## Design
 
 ### Colour Scheme
 
-The color palette is very simple. The background color is blue and pretty plane as the textual part of the game. All parts which can be selected or are showing some kind of message or result are having a :hover pseudo class and a touch of red so it can be eye-catching.
+The color palette is very simple. The background color is blue and pretty plain as the textual part of the game. All parts which can be selected or are showing some kind of message or result are having a :hover pseudo-class and a touch of red so they can be eye-catching.
 
 [Coolors.co](https://coolors.co/) was the website I've used to fetch the colour palette presented.
 
@@ -159,7 +159,7 @@ No known bugs detected
 
 ### Solved Bugs
 
-I came accross few issues and bugs while creating the script.js but I took the good advise my mentor gave me after the first project and made sure to have enough time to coding and play around with this second project. By spending more time on googeling and asking for a guidance I successfully resolve those.
+I came across a few issues and bugs while creating the script.js but I took the good advice my mentor gave me after the first project and made sure to have enough time to code and play around with this second project. By spending more time on googling and asking for guidance I successfully resolve those.
 
 Some of the bugs I came accross and fixed: 
 
@@ -194,7 +194,7 @@ As help I've used the following links mentiond right here below.
 
 ### Content
 
-After my first project and lots of trouble understanding the connection and structure, I must admit that dev tools helps a lot and makes things click easier when it comes to HTML and CSS. JavaScript was or I rather say is something I need to practise a lot(and thats what my mentor said as well), but with some inspiration I got from the Love Maths walkthrough project, guidance from my mentor and friend Kemal and of course googeling I have put together a code, a simple one but still a functional one.
+After my first project and lots of trouble understanding the connection and structure, I must admit that dev tools help a lot and makes things click easier when it comes to HTML and CSS. JavaScript was or I rather say is something I need to practice a lot(and that's what my mentor said as well), but with some inspiration, I got from the Love Maths walkthrough project, guidance from my mentor and friend Kemal, and of course googling I have put together a code, a simple one but still a functional one.
 
 ###  Media
 
