@@ -67,7 +67,7 @@ The color palette is very simple. The background color is blue and pretty plain 
 
 ### Typography
 
-I have used Bubblegum-font since it look catchy and playful but still easy to read.
+I have used Bubblegum-font because it look catchy and fun but still easy to read.
 
 ![Typography](assets/readme/Bubblegum-font.png)
 
@@ -81,7 +81,9 @@ The Wireframes are created for desktop and mobile view.
 
 ## Features
 
-My webpage contains only one page, index.html as a main page.
+My webpage contains only one page, index.html as a main page. In the top of the page we have the heading with the game's name in it supported by a FontAwesome icon. And at the pages bottom we have the short and clear instruction for the game.
+
+The features presented in my online game are well-positioned buttons with descriptive text content surrounding them. Buttons are code controlled and can be pressed just when it is the right time for their usage, otherwise, they are shaded. Right underneath the target button, there is a text area with a red marked number showing the button's value picked for that specific round, and right underneath the play/roll dice button we have the result area which shows the calculated result of each round plus the area right under the result which clearly shows how many turns the player has until the game is over or in case they throw a matching combination the game will end straightaway. And last but not least the reset button which is available at all times.
 
 ### Final look of the Home page
 ![Game Page](assets/readme/website-image.png)
@@ -191,6 +193,7 @@ As help I've used the following links mentiond right here below.
 
 - [w3schools](https://www.w3schools.com/)
 - [stackoverflow](https://stackoverflow.com/)
+- [YouTube](https://www.youtube.com/)
 
 ### Content
 
